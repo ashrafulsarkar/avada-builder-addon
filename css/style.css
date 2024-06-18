@@ -15,4 +15,23 @@
     display: flex;
     flex-wrap: wrap;
     border-radius: 12px 12px 0 0;
+    align-items: center;
+    gap: 18px;
+}
+.custom_card_content {
+    width: calc(100% - 297px);
+}
+.custom_card_content h4 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+.custom_card_content a {
+    color: #0179C1;
+    background: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    line-height: 16px;
+    font-size: 16px;
+    border-radius: 6px;
 }
